@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "soCamp",
+    "slug": "soCamp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/adaptive-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+  
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "clerkPublishableKey": "pk_test_c2Vuc2libGUtc3RpbmdyYXktMC5jbGVyay5hY2NvdW50cy5kZXYk"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme":"com.soCamp"
+  }
+}
